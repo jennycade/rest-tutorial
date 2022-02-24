@@ -6,7 +6,7 @@ import express from 'express';
 import models from './models/index.js';
 
 // routing
-import routes from './routes';
+import routes from './routes/index.js';
 
 // start express
 const app = express();
